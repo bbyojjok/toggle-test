@@ -6,6 +6,7 @@ const CBlock = styled.div`
   position: relative;
   padding: 10px;
   background: #87eb8f;
+  transition: width 0.3s;
   width: ${(props) => (props.toggle ? "50%" : "100%")};
 `;
 

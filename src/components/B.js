@@ -6,6 +6,7 @@ const BBlock = styled.div`
   position: relative;
   padding: 10px;
   background: #ebbe87;
+  transition: height 0.3s;
   height: ${(props) => (props.toggle ? "50px" : "250px")};
 `;
 
