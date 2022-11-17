@@ -2,11 +2,11 @@ import Button from "./toggle/Button";
 import styled from "@emotion/styled";
 
 const CBlock = styled.div`
+  box-sizing: border-box;
   position: relative;
   padding: 10px;
-  margin: 10px;
   background: #87eb8f;
-  width: ${(props) => (props.toggle ? "250px" : "500px")};
+  width: ${(props) => (props.toggle ? "50%" : "100%")};
 `;
 
 const C = ({ toggle, direction, onToggle }) => {

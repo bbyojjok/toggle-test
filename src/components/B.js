@@ -2,9 +2,9 @@ import Button from "./toggle/Button";
 import styled from "@emotion/styled";
 
 const BBlock = styled.div`
+  box-sizing: border-box;
   position: relative;
   padding: 10px;
-  margin: 10px;
   background: #ebbe87;
   height: ${(props) => (props.toggle ? "50px" : "250px")};
 `;
